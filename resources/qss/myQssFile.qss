@@ -1,0 +1,84 @@
+/* app background color*/
+QWidget#MainWindow
+{
+        background-color:rgb(236,65,65);
+}
+
+/* ---------------------------------------------------------------top Bar---------------------------------------------------------------- */
+QLabel#topBar_Lab1
+{
+        border-image:url(:/images/images/wangyiyun.png);
+}
+QPushButton#topBar_pb_prev
+{
+        border-image:url(:/images/images/btn_left.png);
+}
+QPushButton#topBar_pb_next
+{
+        border-image:url(:/images/images/btn_right.png);
+}
+QPushButton#topBar_pb_min
+{
+        border-image:url(:/images/images/btn_min.png);
+}
+QPushButton#topBar_pb_max
+        border-image:url(:/images/images/btn_max.png);
+}
+QPushButton#topBar_pb_close
+{
+        border-image:url(:/images/images/btn_close.png);
+}
+
+/* ---------------------------------------------------------------Bottom Bar---------------------------------------------------------------- */
+QWidget#bottomBar
+{
+        background-color:rgb(255,255,255);
+}
+QPushButton#bottomBar_pb_prev
+{
+        border-image:url(:/images/images/btn_prev.png);
+}
+QPushButton#bottomBar_pb_next
+{
+        border-image:url(:/images/images/btn_next.png);
+}
+QPushButton#bottomBar_pb_play
+{
+        border-image:url(:/images/images/lmm.png);
+}
+
+QSlider::handle:Horizontal#bottomBar_slder
+{
+        border-image:url(:/images/images/slider_point.png);
+}
+/* -----------------------------------------------------------Music&Video list---------------------------------------------------------------- */
+QTableWidget::Item:hover
+{
+        background:rgb(246,246,247);
+}
+QTableWidget::Item:selected
+{
+        font-size:16px;
+        font-weight: bold;
+        color:rgb(55,55,55);
+        border:0px;
+        background:rgb(246,246,247);
+}
+QTableWidget#table_music
+{
+
+        padding-top:13px;
+        border:0px;
+        color:rgb(55,55,55);
+        background:rgb(255,255,255);
+        padding-left:15px;
+}
+QTableWidget#table_video
+{
+
+        padding-top:13px;
+        border:0px;
+        color:rgb(55,55,55);
+        background:rgb(255,255,255);
+        padding-left:15px;
+}
